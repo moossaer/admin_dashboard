@@ -1,0 +1,54 @@
+body {
+    background: #d9ffb3;
+}
+aside {
+    background: #484c69;
+    width: 20%;
+    border: none;
+}
+#admin_pic {
+    height: 13%;
+    width: 30%;
+    border-radius: 50%;
+}
+h3 {
+    margin-top: -23%;
+    margin-left: 40%;
+    color: #ffdd99;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.admin_role {
+    margin-top: -4%;
+    margin-left: 60%;
+    color: #ffdd99;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+a {
+    display: block;
+    text-decoration: none;
+    padding: 5%;
+    color: white;
+}
+main {
+    margin-top: -40%;
+    margin-left: 25%;
+    display: space-between;
+}
+button {
+    display: space-between;
+    margin-right: 10%;
+    height: 15%;
+    width: 23%;
+    margin-bottom: 5%;
+    background: #b0b098;
+    border: none;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    font-size: 17px;
+}
+button:hover {
+    background: #ccccb3;
+    font-size: 15px;
+    border-radius: 8%;
+}
