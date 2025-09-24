@@ -2,45 +2,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMIN DASHBOARD</title>
-    <link rel="stylesheet" href="admin_dashboard.css">
+    <title>Gwani International Academy</title>
+    <link rel="stylesheet" href="my_school_website.css">
 </head>
 <body>
-    <aside>
-            <img id="admin_pic" src="admin.png" alt="Admin Profile Picture">
-            <h3 class="admin_name">MOOSA EDREEX</h3>
-            <P class="admin_role">ADMIN</P>
+    <div class="main-container">
+        <h3 id="my-school-h2">𝔾𝕎𝔸ℕ𝕀 𝕀ℕ𝕋𝔼ℝℕ𝔸𝕋𝕀𝕆ℕ𝔸𝕃 <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝔸ℂ𝔸𝔻𝔼𝕄𝕐</h3>
+            <p style="color: rgb(224, 20, 133); margin-top: -13px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your child's education is our Concern</p>
+            <p style="margin-top: -15px;">Website: 
+                <span style="color: blue;">https://www.Gwaniint'lacademy.scl.ng</span> </p>
+            <nav>
+                <ul>
+                    <li class="list-1"><a class="nav-links" href="home">Home</a></li>
+                    <li class="list-1"><a class="nav-links" href="#ABOUT US">About Us</a></li>
+                    <li class="list-1"><a class="nav-links" href="#CLASSES">Classes</a></li>
+                    <li class="list-1"><a class="nav-links" href="#TEACHERS">Teachers</a></li>
+                    <li class="list-1"><a class="nav-links" href="#CONTACT US">Contact Us</a></li>
+                </ul>
+            </nav>
+    <div class="image-container">
+        <img class="school-boy" src="school_boy.png" alt="Picture of school boy">
+    </div>
+    <div id="apply-and-login-btn">
+        <!-- <button class="one" onclick="location.href='apply.html'"> <marquee>Apply</marquee></button>
+        <button class="two" onclick="location.href='Login.html'"><marquee>Login</marquee></button> -->
+        <button class="one" onclick="location.href='apply.html'"><marquee>Apply &nbsp; ➯</marquee></button>
+        <!-- <button class="two"><marquee>Login &nbsp; ➯</marquee></button> -->
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-btn">Login➯</label>
 
-        <div>
-            <a href="#">Dashboard</a>
-            <a href="#">Portal Request</a>
-            <a href="#">Profile</a>
-            <a href="#">Administrative Manager</a>
-            <a href="#">Student Management</a>
-            <a href="#">Class Attendance</a>
-            <a href="#">View Attendance Records</a>
-            <a href="#">Behavioral Analysis</a>
-            <a href="#">Class Management</a>
-            <a href="#">Subject Management</a>
-            <a href="#">Result Management</a>
+        <div class="login-buttons">
+            <button onclick="location.href='admin_login.html'">Admin Login➯</button>
+            <button onclick="location.href='staff_login.html'">Staff Login➯</button>
+            <button onclick="location.href='student_login.html'">Student Login➯</button>
         </div>
+    </div>
 
-    </aside>
-    <main>
-        <div>
-            <button>My Profile</button>
-            <button>Student Manager</button>
-            <button>Class Manager</button>
-            <button>Subject Manager</button>
-            <button>Result Manager</button>
-            <button>Fee Manager</button>
-            <button>Staff Manager</button>
-            <button>View Users</button>
-            <button>Print Slip</button>
-            <button>Calendar</button>
-            <button>Reset Password</button>
-            <button>Mails</button>
-        </div>
-    </main>
+    <div id="about-us">
+        <h2 style="color: white;"> <a name="ABOUT US"></a> ABOUT US</h2>
+        <p>Welcome to My School, a leading educational dedicated <br>
+            to nurturing young mindsand fostering academic <br>
+            excellence in Nigeria</p>
+    </div>
+    <div id="our-mission">
+        <h2 style="color: white;">OUR MISSION</h2>
+        <p>To Provide a stimulating learning environment that Empowers<br>
+            students to achieve their full potential, develop <br>
+            critical thinking skills and become <br>
+            responsible global citizens</p>
+    </div>
+    <div id="our-vision">
+        <h2 style="color: white;">OUR VISION</h2>
+        <p>To be a premier School in Nigeria, Renowned for academic <br>
+            distinction, Innovation and Character development,<br> 
+            Shaping future Leaders who contribute <br>
+            Positively to society</p>
+    </div>
+    <div class="classes">
+        <h2 style="color: white;"> <a name="CLASSES"></a> CLASSES</h2>
+        <h3>Our Classes</h3>
+        <p>At My School, We have available classrooms with Good ventilations Seats, <br>
+            which can satisfy your childs needs, Our Classes consists of <br>
+            White Boards, Ceiling Fans as well as available lights <br>
+            in such a way that the students will understand <br>
+            the required knowledge.</p>
+    </div>
+    <div id="teachers">
+        <h2 style="color: white;"> <a name="TEACHERS"></a> TEACHERS</h2>
+        <h3>Our Teachers</h3>
+        <p>At My School, We have dedicated teachers with Good <br>
+            backgrounds, They have available knowledge which <br>
+            every parents would like to be them to be <br>
+            the guider to his son.</p>
+    </div>
+    <div class="available-sections-we-have-at-my-school">
+        <em><h3 style="color: white;">Available Sections We have at My School</h3>
+        <ul>
+            <li class="list-2">Nursery Section</li>
+            <li class="list-2">Primary Section</li>
+            <li class="list-2">Junior Section</li>
+            <li class="list-2">Senior Section</li> </em>
+        </ul>
+    </div>
+    <div id="contact-us">
+        <h3> <a name="CONTACT US"></a> You Can Contact us Through:</h3>
+        <ul class="contact">
+            <li>PHONE NO.: 09130952060</li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>EMAIL: <a href="mailto:musaidreex63@gmail.com">musaidreex63@gmail.com</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>FACEBOOK: Moosa Edreex</li>
+        </ul>
+    </div>
+
+    </div>
+    
 </body>
-</html>             
+</html>

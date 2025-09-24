@@ -1,0 +1,170 @@
+body {
+    background-image: url(background.png);
+}
+.main-container {
+    border: 1px solid rgba(194, 194, 214);
+    width: 90%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 5%;
+    background: #d9ffb3;
+    box-shadow: 0 10px 10px 0 rgba(51, 77, 77);
+}
+#my-school-h2 {
+    margin-left: 2%;
+    font-family: 'Gill Sans MT';
+}
+nav {
+    /* position: fixed; */
+    margin-top: -5.5%;
+}
+.list-1 {
+    list-style-type: none;
+    display: inline;
+    margin-right: -10%;
+    margin-left: 20%;
+}
+.nav-links {
+    text-decoration: none;
+    right: -1.5%;
+    padding: 1%;
+    background: #94b8b8;
+    box-shadow: 0 10px 10px 0 rgb(179, 204, 204);
+    border-radius: 10px;
+    position: relative;
+    top: -10%;
+    margin-top: -5%;
+    font-size: 17px;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+}
+#apply-and-login-btn {
+    text-align: center;
+    margin-top: 3%;
+}
+button {
+    height: 7%;
+    width: 15%;
+    border-radius: 20%;
+    margin-right: 3%;
+    border: none;
+}
+.one {
+    background: red;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0 10px 10px rgb(255, 153, 153);
+}.two {
+    background: darkgreen;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0 10px 10px 0 rgb(51, 153, 51);
+}
+
+.school-boy {
+    height: 80%;
+    width: 100%;
+}
+#about-us {
+    text-align: center;
+    margin-top: 5%;
+    border: none;
+    background: #b0b098;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#our-mission {
+    text-align: center;
+    margin-top: 5%;
+    border: none;
+    background: #b0b098;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#our-vision {
+    text-align: center;
+    margin-top: 5%;
+    border: none;
+    background: #b0b098;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.classes, #teachers {
+    border: none;
+    /* border-radius: 30%; */
+    /* height: 40%; */
+    width: 45%;
+    text-align: center;
+    margin-top: 2%;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.classes {
+    background: #b0b098;
+}
+#teachers {
+    position: relative;
+    margin-top: -17%;
+    float: right;
+    background: #b0b098;
+}
+.available-sections-we-have-at-my-school {
+    text-align: center;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 30%;
+    box-shadow: 0 10px 10px 0 rgb(153, 153, 102);
+    background: #b0b098;
+}
+ul {
+    list-style-type: none;
+}
+.contact {
+    display: inline-flex;
+}
+#contact-us {
+    text-align: center;
+}
+/* the pop-up button style */
+#toggle {
+    display: none;
+}
+.toggle-btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background: darkgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10%;
+    height: 2%;
+    border-radius: 25%;
+    font-size: 20px;
+}
+.login-buttons {
+    display: none;
+}
+#toggle:checked ~
+.login-buttons {
+    display: block;
+}
+.login-buttons button {
+    display: block;
+    margin: 10px 52.5%;
+    padding: 10px 20px;
+    width: 160px;
+    background: #476b6b;
+    color: white;
+    border-radius: 0px;
+}
