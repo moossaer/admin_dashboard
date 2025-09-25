@@ -1,12 +1,13 @@
 body {
-    margin: 7% 40%;
+    margin: 7% 38%;
     text-align: center;
     background: #d9ffb3;
     
 }
 #main-container {
     border: 1px solid black;
-    padding: 10%;
+    padding: 5%;
+    width: 110%;
     background: #b0b098;
     border-radius: 0% 20%;
     box-shadow: 0px 10px 10px 0 rgba(6, 19, 13);
